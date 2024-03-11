@@ -1,3 +1,4 @@
+/* eslint-disable */
 import supertest from 'supertest';
 import chai from 'chai';
 import api from '../server';

@@ -11,17 +11,28 @@
     "dev": "nodemon --exec babel-node --presets @babel/preset-env",
     "test": "./node_modules/.bin/mocha --require @babel/register --exit"
   },
-  "author": "",
+  "author": {
+    "name": "KIMO Ouazmir, Sakina Nouri",
+    "url": "https://github.com/Niceblueman/alx-files_manager"
+  },
   "license": "ISC",
+  "repository": {
+    "url": "https://github.com/Niceblueman/alx-files_manager"
+  },
   "dependencies": {
+    "@fastify/express": "^2.3.0",
     "bull": "^3.16.0",
     "chai-http": "^4.3.0",
+    "dotenv": "^16.4.5",
     "express": "^4.17.1",
+    "fastify": "^4.26.2",
     "image-thumbnail": "^1.0.10",
     "mime-types": "^2.1.35",
     "mongodb": "^3.5.9",
     "redis": "^2.8.0",
     "sha1": "^1.1.1",
+    "sharp": "^0.33.2",
+    "supertest": "^6.3.4",
     "uuid": "^8.2.0"
   },
   "devDependencies": {

@@ -1,4 +1,4 @@
-/* eslint-disable import/no-named-as-default */
+/* eslint-disable */
 import { expect } from 'chai';
 import redisClient from '../../utils/redis';
 
@@ -24,7 +24,7 @@ describe('+ RedisClient utility', () => {
     }, 2000);
   });
 
-  it('+ Setting and getting a deleted value', async function () {
+  it('+ Setting and getting a deleted value', async () => {
     await redisClient.set('test_key', 345, 10);
     await redisClient.del('test_key');
     setTimeout(async () => {

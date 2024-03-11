@@ -1,4 +1,4 @@
-/* eslint-disable import/no-named-as-default */
+/* eslint-disable */
 import dbClient from '../../utils/db';
 
 describe('+ UserController', () => {
